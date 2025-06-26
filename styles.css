@@ -64,7 +64,7 @@
   }
 
   .attribution a {
-    color: var(--links)
+    color: var(--links);
   }
 
   .grid-container {
