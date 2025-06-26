@@ -11,25 +11,37 @@
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-  font-weight: 400, 600, 700;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 700;
 }
 
 a {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
 
 h1 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   padding: 1rem 0rem 0rem;
 }
 
 h2 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 0.875rem;
   color: var(--green);
@@ -37,7 +49,7 @@ h2 {
 }
 
 p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
   /* 14px */
@@ -93,7 +105,8 @@ p {
 
 .github-link-button,
 .frontend-mentor-link-button,
-.linkedin-link-button {
+.linkedin-link-button,
+.personal-website {
   background: var(--yellow);
   text-align: center;
   margin: 0.625rem;
@@ -116,7 +129,8 @@ p {
 
 .github-link-button:hover,
 .frontend-mentor-link-button:hover,
-.linkedin-link-button:hover {
+.linkedin-link-button:hover,
+.personal-website:hover {
   transform: scale(1.05);
   cursor: pointer;
   background: var(--green);
