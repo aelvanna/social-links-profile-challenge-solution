@@ -3,135 +3,136 @@
   --pale-yellow: hsl(47, 100%, 85%);
   --green: hsl(101, 99%, 33%);
   --links: hsl(228, 45%, 44%);
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  @font-face {
-    font-family: 'Inter';
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-    font-weight: 400;
-  }
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 400;
+}
 
-  @font-face {
-    font-family: 'Inter';
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-    font-weight: 600;
-  }
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 600;
+}
 
-  @font-face {
-    font-family: 'Inter';
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-    font-weight: 700;
-  }
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 700;
+}
 
-  a {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-  }
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
 
-  h1 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding: 1rem 0rem 0rem;
-  }
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem 0rem 0rem;
+}
 
-  h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 0.875rem;
-    color: var(--green);
-    padding: 0.5rem 0rem 0.5rem;
-  }
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--green);
+  padding: 0.5rem 0rem 0.5rem;
+}
 
-  p {
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    font-size: 0.875rem;
-    /* 14px */
-    padding: 1rem 0rem 1rem;
-  }
+p {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  /* 14px */
+  padding: 1rem 0rem 1rem;
+}
 
-  .attribution {
-    font-size: 0.688rem;
-    /* 11px */
-    text-align: center;
-    margin: 1rem 0rem 0rem;
-  }
+.attribution {
+  font-size: 0.688rem;
+  /* 11px */
+  text-align: center;
+  margin: 1rem 0rem 0rem;
+}
 
-  .attribution a {
-    color: var(--links);
-  }
+.attribution a {
+  color: var(--links);
+}
 
-  .grid-container {
-    background: var(--yellow);
-    height: 100vh;
-    place-content: center;
+.grid-container {
+  background: var(--yellow);
+  height: 100vh;
+  place-content: center;
 
-  }
+}
 
-  .card {
-    display: grid;
-    max-width: 18rem;
-    background: var(--pale-yellow);
-    place-content: center;
-    margin: 0 auto;
-    padding: 1.5rem;
-    border: solid;
-    border-width: 0.25rem;
-    border-radius: 1.25rem;
-    filter: drop-shadow(0.25rem 0.25rem #000000);
-  }
+.card {
+  display: grid;
+  max-width: 18rem;
+  background: var(--pale-yellow);
+  place-content: center;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: solid;
+  border-width: 0.25rem;
+  border-radius: 1.25rem;
+  filter: drop-shadow(0.25rem 0.25rem #000000);
+}
 
-  .user-profile {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-  }
+.user-profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
 
-  .user-profile-img img {
-    width: 10rem;
-  }
+.user-profile-img img {
+  width: 10rem;
+}
 
-  .social-links {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-  }
+.social-links {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
 
-  .github-link-button,
-  .frontend-mentor-link-button,
-  .linkedin-link-button,
-  .personal-website {
-    background: var(--yellow);
-    text-align: center;
-    margin: 0.625rem;
-    width: 15rem;
-    border-radius: 0.75rem;
-    filter: drop-shadow(0.2rem 0.2rem #000000);
-    padding: 0.75rem;
-    font-size: 0.875rem;
+.github-link-button,
+.frontend-mentor-link-button,
+.linkedin-link-button,
+.personal-website {
+  background: var(--yellow);
+  text-align: center;
+  margin: 0.625rem;
+  width: 15rem;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0.2rem 0.2rem #000000);
+  padding: 0.75rem;
+  font-size: 0.875rem;
 
-  }
+}
 
-  .social-links a {
-    text-decoration: none;
-    color: black;
-  }
+.social-links a {
+  text-decoration: none;
+  color: black;
+}
 
-  .social-links a:hover {
-    color: var(--pale-yellow);
-  }
+.social-links a:hover {
+  color: var(--pale-yellow);
+}
 
-  .github-link-button:hover,
-  .frontend-mentor-link-button:hover,
-  .linkedin-link-button:hover,
-  .personal-website:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-    background: var(--green);
-  }
+.github-link-button:hover,
+.frontend-mentor-link-button:hover,
+.linkedin-link-button:hover,
+.personal-website:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background: var(--green);
+}
